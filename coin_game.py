@@ -19,4 +19,3 @@ def coin_game(v):
 
 v = [10, 20, 5, 4]
 coin_game(v)
-
