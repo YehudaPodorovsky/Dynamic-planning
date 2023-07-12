@@ -1,3 +1,4 @@
+# Count arrangements
 def count_arrangements(n):
     OPT = [[0] * (n + 1) for _ in range(n + 1)]
 

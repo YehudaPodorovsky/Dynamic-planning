@@ -1,4 +1,4 @@
-#coin game
+# Coin game
 def coin_game(v):
     n = len(v)
     OPT = [[None] * n for _ in range(n)]
