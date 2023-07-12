@@ -1,3 +1,4 @@
+# Count permutations
 def count_permutations(n, k):
     OPT = [[0] * (k + 1) for _ in range(n + 1)]
     OPT[0][0] = 1
