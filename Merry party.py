@@ -42,7 +42,6 @@ nodes[3].children = [nodes[6]]
 nodes[5].children = [nodes[7], nodes[8]]
 
 
-# Calculate the maximum number of nodes in a maximally independent set
 print("Postorder recursive:")
 dfs(nodes[0])
 print()
