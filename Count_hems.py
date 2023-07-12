@@ -1,4 +1,5 @@
-def factoring_into_multiplications(n, num):
+# Count hems by count prime factors
+def count_hems(n, num):
     OPT = [[0] * (n + 1) for _ in range(n + 1)]
 
     for i in range(1, n + 1):
@@ -25,8 +26,7 @@ def count_prime_factors(num):
     if num > 1:
         count += 1
 
-    factoring_into_multiplications(count, number)
+    count_hems(count, number)
 
-# Example usage
 number = 30
 count_prime_factors(number)
