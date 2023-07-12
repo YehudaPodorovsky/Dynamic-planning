@@ -1,4 +1,5 @@
-def countParentheses(expression):
+# Count parentheses
+def count_parentheses(expression):
     n = len(expression)
     T = [[0] * n for _ in range(n)]
     F = [[0] * n for _ in range(n)]
@@ -36,7 +37,5 @@ def countParentheses(expression):
     return T[0][n-1]
 
 
-# Example usage:
-boolean_expression = "F&T^T"
-result = countParentheses(boolean_expression)
-print("Maximum number of true evaluations:", result)
+boolean_expression = "F&T^T" # '^' is XOR
+print("Maximum number of true evaluations:", count_parentheses(boolean_expression))
