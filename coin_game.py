@@ -1,3 +1,4 @@
+#coin game
 def coin_game(v):
     n = len(v)
     OPT = [[None] * n for _ in range(n)]
@@ -14,8 +15,6 @@ def coin_game(v):
     for i in range(len(OPT)):
         print(OPT[i])
     print("solution:", OPT[0][len(OPT)-1])
-
-
 
 v = [10, 20, 5, 4]
 coin_game(v)
