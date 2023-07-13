@@ -1,3 +1,4 @@
+# Tree Independent Set
 class Node:
     def __init__(self, value):
         self.values = {'key': value, 'plus': 0, 'minus': 0, 'OPT': 0}
