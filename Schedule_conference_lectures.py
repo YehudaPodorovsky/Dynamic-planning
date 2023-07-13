@@ -1,3 +1,4 @@
+# Schedule conference lectures
 def schedule_conference_lectures(durations, T):
     n = len(durations)
     OPT = [[0] * (T+1) for _ in range(n+1)]
