@@ -15,6 +15,8 @@ def minimum_coins(coins, x):
         print(OPT[i])
     print(f"Given the coin series {coins} and we would like to pay NIS {x}, the minimum number of coins is {OPT[i][j]}.")
 
-coins = [1, 4, 5]
-x = 8
+#coins = [1, 4, 5]
+coins = [2]
+#x = 8
+x = 3
 minimum_coins(coins, x)
